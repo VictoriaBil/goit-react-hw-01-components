@@ -1,0 +1,40 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  margin-top: 100px;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  border: 2px solid grey;
+  margin-bottom: 10px;
+  gap: 10px;
+  border-collapse: collapse;
+  background-color: rgb(254, 250, 250);
+  box-shadow: 10px 10px 10px 0px rgb(108, 108, 108);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.isOnline,
+.isOfline {
+  display: flex;
+  width: 15px;
+  height: 15px;
+  margin-left: 20px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.isOfline {
+  background-color: red;
+}
